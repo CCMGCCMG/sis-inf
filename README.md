@@ -1,16 +1,37 @@
-## Hi there 👋
+<!-- seccion:encabezado -->
+<!-- /seccion:encabezado -->
 
-<!--
-**sis-inf/sis-inf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- seccion:idioma -->
+<!-- /seccion:idioma -->
 
-Here are some ideas to get you started:
+<!-- seccion:cifras -->
+<!-- auto:cifras -->
+<!-- /auto:cifras -->
+<!-- /seccion:cifras -->
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- seccion:carrera -->
+<!-- /seccion:carrera -->
+
+<!-- seccion:carreras -->
+<!-- /seccion:carreras -->
+
+<!-- seccion:proyectos -->
+<!-- /seccion:proyectos -->
+
+<!-- seccion:lenguajes -->
+<!-- /seccion:lenguajes -->
+
+<!-- seccion:colaboradores -->
+<!-- /seccion:colaboradores -->
+
+<!-- seccion:participar -->
+<!-- /seccion:participar -->
+
+<!-- seccion:contacto -->
+<!-- /seccion:contacto -->
+
+<!-- seccion:pie -->
+---
+
+<p align="center">Software libre institucional · Hecho con 💙 por docentes y estudiantes de Ingeniería de Sistemas e Ingeniería Informática – FNI – UTO · <a href="https://github.com/sis-inf/sis-inf/blob/main/LICENSE">Licencia</a></p>
+<!-- /seccion:pie -->
