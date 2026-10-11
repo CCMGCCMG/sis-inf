@@ -4,6 +4,11 @@
 <!-- seccion:idioma -->
 <!-- /seccion:idioma -->
 
+<!-- seccion:cifras -->
+<!-- /seccion:cifras -->
+
+<!-- seccion:carrera -->
+## 🎓 About us
 <!-- auto:cifras -->
 <!-- /auto:cifras -->
 
@@ -53,6 +58,10 @@ Our community in numbers: the free software we build together, faculty and stude
 
 <!-- seccion:proyectos -->
 ## 🚀 Projects
+<!-- /seccion:proyectos -->
+
+<!-- seccion:lenguajes -->
+## 💻 Languages
 
 All our projects are institutional free software released under the MIT license, built by faculty and students of our program, and anyone can use, study, and improve them. The list below updates itself automatically.
 
@@ -65,6 +74,18 @@ All our projects are institutional free software released under the MIT license,
 
 <!-- seccion:colaboradores -->
 ## 🏆 Contributors
+<!-- /seccion:colaboradores -->
+
+<!-- seccion:participar -->
+## 🤝 Get involved
+<!-- /seccion:participar -->
+
+<!-- seccion:contacto -->
+## 📫 Contact
+<!-- /seccion:contacto -->
+
+<!-- seccion:pie -->
+<!-- /seccion:pie -->
 
 Thank you to the faculty and students who contribute to our projects. The list below shows the 20 people with the most contributions, where each accepted pull request and each direct commit to main counts as one.
 
