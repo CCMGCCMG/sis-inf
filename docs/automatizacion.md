@@ -1,5 +1,35 @@
 # Automatización del perfil
 
+## Qué hace
+
+Una GitHub Action ejecuta el script `scripts/actualizar_perfil.py`, que consulta la API de GitHub y regenera automáticamente algunas secciones del README del perfil de SIS-INF.
+
+**Bloques que actualiza:**
+
+| Bloque | Contenido |
+|---|---|
+| `cifras` | Línea de insignias con la cantidad de proyectos, estrellas, forks, colaboradores y aportes. |
+| `proyectos` | Listado de los proyectos de la organización. |
+| `lenguajes` | Lenguajes de programación usados en los proyectos. |
+| `colaboradores` | Personas que contribuyen en los proyectos. |
+| `participar` | Cómo contribuir a los proyectos de la comunidad. |
+
+**Archivos que modifica:** `README.md` (español) y `README.en.md` (inglés).
+
+**Cada cuánto se ejecuta:** una vez al día, a las 06:00 UTC (02:00 en Bolivia), mediante el workflow `.github/workflows/actualizar-perfil.yml`. También puede ejecutarse manualmente desde la pestaña **Actions** con el botón **Run workflow**. Si el contenido generado no cambió, no se crea ningún commit.
+
+**Qué repositorios considera:** solo los repositorios **públicos** de la organización. Los repositorios privados nunca aparecen en el perfil.
+
+**No se editan a mano:** cada bloque automático está delimitado por un par de marcadores:
+
+```markdown
+<!-- auto:proyectos -->
+(contenido generado)
+<!-- /auto:proyectos -->
+```
+
+Todo lo que está entre `<!-- auto:nombre -->` y `<!-- /auto:nombre -->` se reemplaza en cada ejecución, por lo que cualquier cambio manual en esa zona se pierde. Para cambiar ese contenido hay que modificar el script, no el README. El texto que está fuera de los marcadores sí se edita a mano con normalidad.
+
 ## Cómo ejecutarlo localmente
 
 Requisitos: Python 3.12 y una copia local del repositorio. Todos los comandos se ejecutan desde la carpeta raíz del repositorio.
@@ -53,4 +83,5 @@ pytest -q
 
 - El script puede modificar `README.md` y `README.en.md`. Revisa los cambios con `git diff` y no los incluyas en tu Pull Request si no forman parte de tu issue.
 - pytest busca las pruebas en la carpeta `tests/` y toma los módulos de `scripts/`, según la configuración de `pyproject.toml`. Al final debe indicar que todas las pruebas pasaron (`passed`).
-- Si la carpeta `tests/` todavía no existe o no tiene pruebas, pytest no ejecuta ninguna y muestra un aviso como `No files were found in testpaths` o `no tests ran`. No es un error del script: solo indica que aún no hay pruebas que ejecutar.
+- Si la carpeta `tests/` todavía no existe o no tiene pruebas, pytest no ejecuta ninguna, muestra un aviso como `No files were found in testpaths` o `no tests ran` y **finaliza con el código de salida 5** en lugar de 0. No es un error del script: solo indica que aún no hay pruebas que ejecutar.
+- Para ver el código de salida del último comando: `echo $?` en Linux o macOS, `echo %ERRORLEVEL%` en cmd y `$LASTEXITCODE` en PowerShell. El código 0 significa que todas las pruebas pasaron.
