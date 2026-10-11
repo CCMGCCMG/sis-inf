@@ -11,7 +11,7 @@
 <!-- /seccion:carrera -->
 
 <!-- seccion:carreras -->
-## 📚 Nuestras titulaciones
+## 📚 Our degrees
 
 | Degree | What the professional does | Curriculum |
 | --- | --- | --- |
