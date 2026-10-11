@@ -5,6 +5,10 @@
 <!-- /seccion:idioma -->
 
 <!-- seccion:cifras -->
+Our community in numbers: the free software we build together, faculty and students.
+
+<!-- auto:cifras -->
+<!-- /auto:cifras -->
 <!-- /seccion:cifras -->
 
 <!-- seccion:carrera -->
