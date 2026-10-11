@@ -33,7 +33,7 @@ Our community in numbers: the free software we build together, faculty and stude
 
 ## 📫 Contact
 
-- **Website:** https://github.com/sis-inf
+- **Website:** <https://github.com/sis-inf>
 
 <!-- /seccion:contacto -->
 
