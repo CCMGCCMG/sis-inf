@@ -4,6 +4,8 @@
 <!-- seccion:idioma -->
 <!-- /seccion:idioma -->
 
+<!-- auto:cifras -->
+<!-- /auto:cifras -->
 <!-- seccion:cifras -->
 Our community in numbers: the free software we build together, faculty and students.
 
@@ -15,6 +17,25 @@ Our community in numbers: the free software we build together, faculty and stude
 <!-- /seccion:carrera -->
 
 <!-- seccion:carreras -->
+## 📚 Our degrees
+
+| Degree | What the professional does | Curriculum |
+| --- | --- | --- |
+| Systems Engineering | Analyzes organizational processes, models comprehensive IT solutions and leads the management of information technologies. | [Curriculum](https://www.fni.uto.edu.bo/index.php/carreras/ing-sistemas) |
+| Computer Engineering | Develops complex logical structures, works with programming languages and leads software projects involving large volumes of data. | [Curriculum](https://www.sisinf.fni.uto.edu.bo/informatica/) |
+<!-- /seccion:carreras -->
+
+<!-- auto:proyectos -->
+<!-- /auto:proyectos -->
+
+<!-- auto:lenguajes -->
+<!-- /auto:lenguajes -->
+
+<!-- auto:colaboradores -->
+<!-- /auto:colaboradores -->
+
+<!-- auto:participar -->
+<!-- /auto:participar -->
 <!-- /seccion:carreras -->
 
 <!-- seccion:proyectos -->
@@ -45,6 +66,7 @@ Thank you to the faculty and students who contribute to our projects. The list b
 <!-- /seccion:contacto -->
 
 <!-- seccion:pie -->
+<!-- /seccion:pie -->
 ---
 
 <p align="center">Institutional open-source software · Made with 💙 by faculty and students of Systems Engineering and Informatics Engineering – FNI – UTO · <a href="https://github.com/sis-inf/sis-inf/blob/main/LICENSE">License</a></p>
