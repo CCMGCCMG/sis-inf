@@ -97,6 +97,11 @@ Thank you to the faculty and students who contribute to our projects. The list b
 <!-- /seccion:participar -->
 
 <!-- seccion:contacto -->
+
+## 📫 Contact
+
+- **Website:** <https://github.com/sis-inf>
+
 <!-- /seccion:contacto -->
 
 <!-- seccion:pie -->
