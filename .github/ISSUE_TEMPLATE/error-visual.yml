@@ -42,3 +42,4 @@ body:
       placeholder: "Ejemplo: Google Chrome"
     validations:
       required: true
+      
