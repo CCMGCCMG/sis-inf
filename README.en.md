@@ -33,4 +33,7 @@ Our community in numbers: the free software we build together, faculty and stude
 <!-- /seccion:contacto -->
 
 <!-- seccion:pie -->
+---
+
+<p align="center">Institutional open-source software · Made with 💙 by faculty and students of Systems Engineering and Informatics Engineering – FNI – UTO · <a href="https://github.com/sis-inf/sis-inf/blob/main/LICENSE">License</a></p>
 <!-- /seccion:pie -->
