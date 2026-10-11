@@ -30,6 +30,12 @@ All our projects are institutional free software released under the MIT license,
 <!-- /seccion:lenguajes -->
 
 <!-- seccion:colaboradores -->
+## 🏆 Contributors
+
+Thank you to the faculty and students who contribute to our projects. The list below shows the 20 people with the most contributions, where each accepted pull request and each direct commit to main counts as one.
+
+<!-- auto:colaboradores -->
+<!-- /auto:colaboradores -->
 <!-- /seccion:colaboradores -->
 
 <!-- seccion:participar -->
