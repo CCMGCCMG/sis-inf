@@ -18,6 +18,12 @@ Our community in numbers: the free software we build together, faculty and stude
 <!-- /seccion:carreras -->
 
 <!-- seccion:proyectos -->
+## 🚀 Projects
+
+All our projects are institutional free software released under the MIT license, built by faculty and students of our program, and anyone can use, study, and improve them. The list below updates itself automatically.
+
+<!-- auto:proyectos -->
+<!-- /auto:proyectos -->
 <!-- /seccion:proyectos -->
 
 <!-- seccion:lenguajes -->
