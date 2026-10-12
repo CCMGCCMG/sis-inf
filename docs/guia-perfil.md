@@ -23,21 +23,21 @@ El tono de redacción debe ser institucional, claro y cercano. Utilizamos la pri
 
 ### Ejemplos en español
 
-* **Correcto:** «Desarrollamos software libre para nuestra comunidad.»
-* **Incorrecto:** «La institución desarrolla soluciones informáticas para los usuarios.»
-* **Correcto:** «Compartimos nuestros proyectos para que puedan ser estudiados y mejorados.»
-* **Incorrecto:** «Los usuarios deberán proceder a la utilización de los recursos disponibles.»
-* **Correcto:** «Te invitamos a conocer y colaborar con nuestros proyectos.»
-* **Incorrecto:** «Se invita a los interesados a participar en las actividades correspondientes.»
+- **Correcto:** «Desarrollamos software libre para nuestra comunidad.»
+- **Incorrecto:** «La institución desarrolla soluciones informáticas para los usuarios.»
+- **Correcto:** «Compartimos nuestros proyectos para que puedan ser estudiados y mejorados.»
+- **Incorrecto:** «Los usuarios deberán proceder a la utilización de los recursos disponibles.»
+- **Correcto:** «Te invitamos a conocer y colaborar con nuestros proyectos.»
+- **Incorrecto:** «Se invita a los interesados a participar en las actividades correspondientes.»
 
 ### Examples in English
 
-* **Correct:** “We develop free software for our community.”
-* **Incorrect:** “The institution develops software solutions for users.”
-* **Correct:** “We share our projects so they can be studied and improved.”
-* **Incorrect:** “Users shall proceed with the utilization of the available resources.”
-* **Correct:** “We invite you to learn about and contribute to our projects.”
-* **Incorrect:** “Interested parties are invited to participate in the corresponding activities.”
+- **Correct:** “We develop free software for our community.”
+- **Incorrect:** “The institution develops software solutions for users.”
+- **Correct:** “We share our projects so they can be studied and improved.”
+- **Incorrect:** “Users shall proceed with the utilization of the available resources.”
+- **Correct:** “We invite you to learn about and contribute to our projects.”
+- **Incorrect:** “Interested parties are invited to participate in the corresponding activities.”
 
 ## Paleta de colores
 
